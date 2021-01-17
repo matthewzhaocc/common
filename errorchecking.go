@@ -1,5 +1,5 @@
 package common
 
-func checkerror(err error) bool {
+func CheckError(err error) bool {
 	return err != nil
  }
